@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MobileWater
+  m_Shader: {fileID: 4800000, guid: ccdcfea6f8901954fa2d72d83b6999a3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DepthRampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamDiffuse:
+        m_Texture: {fileID: 2800000, guid: a24ddeee41b659a42b3e031e47a80ae2, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: 0af227fb6078e4f45a4ed1ff20c180c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IslandMask:
+        m_Texture: {fileID: 2800000, guid: 2111e9fac5e02fa4e959940cf00126d1, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7fb81062550eaad4bb4c0fdbac2a2e2f, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 9503225066d04804d9a94dbdce4c330c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimMainTex:
+        m_Texture: {fileID: 2800000, guid: 9503225066d04804d9a94dbdce4c330c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryFoamTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTexture:
+        m_Texture: {fileID: 2800000, guid: 0af227fb6078e4f45a4ed1ff20c180c0, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _WaveNormal:
+        m_Texture: {fileID: 2800000, guid: 95bcf17c898beb4489a64b73287e286e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WavesMainTex:
+        m_Texture: {fileID: 2800000, guid: 7fb81062550eaad4bb4c0fdbac2a2e2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DepthFactor: 0.01
+    - _DistortStrength: 0.297
+    - _DistortTimeFactor: 0.316
+    - _ExtraHeight: 0
+    - _FoamIntensity: 2.04
+    - _FoamScale: 10
+    - _FoamTileX: 1
+    - _FoamTileY: 1
+    - _FresnelExp: 5
+    - _Gradient1: 3.58
+    - _Gradient2: 1
+    - _IntersectPower: 1
+    - _MainFoamIntensity: 0.5
+    - _MainFoamOpacity: 1
+    - _MainFoamScale: 3
+    - _Outline: 0.83
+    - _RimEffect: 0.816
+    - _RimStrength: 4.11
+    - _RimValue: 2.5
+    - _ScrollXSpeed: 1
+    - _ScrollYSpeed: 0
+    - _SecondaryFoamIntensity: 5
+    - _SecondaryFoamOpacity: 0.507
+    - _SecondaryFoamScale: 1
+    - _SpecularGloss: 0.5
+    - _SpecularPower: 0
+    - _WaterContrast: 1
+    - _WaterDepth: 1
+    - _WaterSpeed: 1
+    - _WaterTile: 1
+    - _WaveAmp: 0.002
+    - _WaveHeight: 30
+    - _WaveSpeed: 0.3
+    - _WaveTile1: 10
+    - _WaveTile2: 10
+    - _WaveWind: 0.01
+    m_Colors:
+    - _CoastColor: {r: 0.17647, g: 0.76863, b: 0.82353, a: 1}
+    - _CoastDepth: {r: 0, g: 1, b: 0.91373, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.31617647, g: 0.77363074, b: 1, a: 1}
+    - _Color1: {r: 0.13473184, g: 0.24583581, b: 0.6544118, a: 1}
+    - _Color2: {r: 0.038657, g: 0.2833341, b: 0.4044118, a: 1}
+    - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor: {r: 0.7205882, g: 0.907505, b: 1, a: 1}
+    - _OceanColor: {r: 0.03529, g: 0.24314, b: 0.41961, a: 1}
+    - _OceanDepth: {r: 0.25098, g: 0.5098, b: 0.92549, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TextureColor: {r: 1, g: 1, b: 1, a: 1}
